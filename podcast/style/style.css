@@ -1,0 +1,394 @@
+/* 
+    Created on : 20-oct-2015, 17:21:54
+    Author     : MARTIN
+*/
+body {
+    background-image: url("../storage/img/background2.jpg");
+    background-size: cover;
+}
+
+#wrapper {
+    margin: 0 auto;
+}
+
+#initform {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+}
+
+#initform > label {
+    display: block;
+    margin: 0 auto;
+    margin-top: 7px;
+    text-align: center;
+}
+
+#initform > input {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+
+#initform > button {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+}
+
+#biglogo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+header {
+    height: 80px;
+    background-image: url("../storage/img/bgnd.png");
+    color: white;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header > div{
+    display: inline-block;
+}
+
+#actions{
+    float: right;
+    margin-right: 10px;
+    line-height: 80px;
+}
+
+#actions > a{
+    display: inline-block;
+    width: 80px;
+    height: 70px;
+    text-align: center;
+    background-color: #111111;
+}
+
+#actions > a:hover{
+    background-color: #444444;
+}
+
+#viewer {
+    display: inline-block;
+    width: 100%;
+}
+
+#viewer > h2 {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#pcontrols{
+    display: inline-block;
+    position: fixed;
+    width: 19.6%;
+    height: 400px;
+    background-color: black;
+    margin-right: 0px;
+}
+
+
+.song{
+    display: inline-block;
+    width: 19%;
+    margin: 1%;
+    border: none;
+    cursor: pointer;
+}
+
+.song > button {
+    display: inline-block;
+    width: 100%;
+
+}
+
+.song > img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.song > label {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#pcontrols > h3 {
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+#pcontrols select {
+    margin: 0px;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+#tabledelete{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 500px;
+    overflow-y: scroll;
+    background-color: rgba(255,255,255,0.9);
+    height: 350px;
+}
+
+#tabledelete > tbody{
+    display: block;
+    width: 100%;
+}
+
+#tabledelete> tbody > tr{
+    display: block;
+    height: 80px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#tabledelete> tbody > tr > td{
+    display: inline-block;
+    height: 80px;
+    width: 32%;
+}
+
+#tabledelete> tbody > tr > td > button{
+    float: right;
+    margin-right: 12px;
+}
+
+#tabledelete> tbody > tr > td > img{
+    margin-left: 12px;
+}
+
+.icon{
+    display: block;
+    height: 80px;
+    width: 80px;
+}
+
+.icon > img {
+    width: 60%;
+}
+
+.icon > h4 {
+    margin-top: 1px;
+    padding-top: 1px;
+}
+
+#formupload {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.9);
+    height: 350px;
+    overflow-y: scroll;
+}
+
+#formupload > label{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#formupload > input {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#formupload > button {
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    bottom: 15px;
+}
+
+footer{
+    position: fixed;
+    height: 40px;
+    background-image: url("../storage/img/bgndfoot.png");
+    margin: 0 auto;
+    color: white;
+    width: 99%;
+    bottom: 0px;
+}
+
+#left{
+    float: left;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+#right {
+    float: right;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+#filter {
+    display: block;
+    width: 40%;
+    height: 250px;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.9);
+}
+
+#filter select {
+    display: block;
+    margin: 0 auto;
+}
+
+#filter > label {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#filter > button {
+    display: block;
+    background-color: black;
+    color: white;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+#filterowner label {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#filteraccess > label{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.filters > div {
+    display: inline-block;
+}
+
+#filteraccess > div {
+
+    width: 30%;
+    margin: 1%;
+}
+
+.filters > div > label{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.filters input{
+    display: block;
+    margin: 0 auto;
+}
+
+#category > label {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#category > div {
+    display: inline-block;
+    width: 23%;
+}
+
+#category > div > label{
+    text-align: center;
+}
+
+#formupdate {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.bigicon{
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#formupdate > label{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#formupdate > input {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#formupdate > select {
+    display: block;
+    margin: 0 auto;
+}
+
+#formupdate > button {   
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+#divupdate > h2 {
+    background-color: rgba(255,255,255,0.9);
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.head{
+    background-color: rgba(255,255,255,0.9);
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.red{
+    background-color: #ccffff;
+}
+
+
